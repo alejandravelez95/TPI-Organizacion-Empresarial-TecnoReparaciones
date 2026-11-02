@@ -1,4 +1,5 @@
-# TPI-Organizacion-Empresarial-TecnoReparaciones
+# TPI Organización Empresarial — TECNO REPARACIONES
+
 Trabajo Práctico Integrador y Progresivo
 Tecnicatura Universitaria en Programación a Distancia (TUP AD) — Universidad Tecnológica Nacional
 Asignatura: Organización Empresarial | Docente titular: Prof. Gabriela Martínez | Tutora: Prof. Martina Zabala
@@ -28,10 +29,18 @@ Sistema centralizado para sistematizar la administración de clientes, equipos, 
 2. **HU-02 (Alta)** — Como técnico del Área de Servicios Técnicos, quiero consultar el stock de repuestos desde la orden y recibir alertas automáticas de reposición, para evitar demoras y mantener el margen de error de stock por debajo del 1%.
 3. **HU-03 (Media)** — Como cliente, quiero consultar en línea el estado de mi orden con su historial completo (recepcion, diagnostico, presupuestado, en_reparacion, reparado, entregado), para no depender de llamados telefónicos.
 
+## Indicadores de control
+| Indicador | Estándar | Frecuencia |
+|---|---|---|
+| Tiempo de respuesta de operaciones core | < 2 s (95% de transacciones) | Pruebas de carga (T9, en entorno T9a) |
+| Trazabilidad de órdenes | 100% con historial completo | Auditoría mensual |
+| Error de stock | ≤ 1% (primeros 90 días) | Reporte semanal |
+| Tiempo del proceso técnico | Reducción del 30% | Medición a los 6 meses |
+| Cumplimiento del cronograma | Desviación ≤ 1 semana | Comparación semanal vs. Gantt (24 semanas) |
+
 ## Declaración de Uso de IA
 En el desarrollo de este proyecto utilicé asistentes de Inteligencia Artificial como apoyo para diagramar las figuras (matriz FODA, Gantt, organigrama, BPMN), corregir la redacción de los informes y estructurar borradores de textos. Las decisiones de diseño fueron propias: la elección del proceso a
 modelar, la priorización de las historias de usuario según las metas cuantitativas del proyecto, la incorporación de la tarea T9a (preparación del entorno de simulación de carga) y la estrategia de ramas del repositorio.
 Las correcciones sobre como armar (2 pools, lanes, compuertas exclusivas y caminos de excepción) y validar la coherencia de los indicadores de control con las seis metas de la Entrega 2.
 
----
-*Enlaces: [Repositorio](https://github.com/alejandravelez95/TPI-Organizacion-Empresarial-TecnoReparaciones) | Tablero ágil: https://github.com/users/alejandravelez95/projects/3/views/1*
+*Enlaces: [Repositorio](https://github.com/alejandravelez95/TPI-Organizacion-Empresarial-TecnoReparaciones) | [Tablero ágil](https://github.com/users/alejandravelez95/projects/3/views/1)*
